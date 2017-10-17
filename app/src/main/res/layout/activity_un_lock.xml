@@ -8,15 +8,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="看到此界面，说明你解锁成功了！"
+        android:text="输入解锁密码"
         android:textSize="20sp"/>
 
-    <Button
-        android:id="@+id/btn_reset"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="重置"/>
+    <include layout="@layout/layout_lock_view"/>
 </LinearLayout>

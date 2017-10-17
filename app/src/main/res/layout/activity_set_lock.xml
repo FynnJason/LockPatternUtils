@@ -6,17 +6,20 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="看到此界面，说明你解锁成功了！"
+        android:text="设置密码"
         android:textSize="20sp"/>
 
+    <include layout="@layout/layout_lock_view"/>
+
     <Button
-        android:id="@+id/btn_reset"
+        android:id="@+id/btn_password_clear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="重置"/>
+        android:layout_margin="24dp"
+        android:text="重新设置"
+        android:visibility="gone"/>
 </LinearLayout>

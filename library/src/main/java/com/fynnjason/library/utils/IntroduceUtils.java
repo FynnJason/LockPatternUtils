@@ -1,4 +1,4 @@
-package com.fynnjason.library;
+package com.fynnjason.library.utils;
 
 import android.util.Log;
 
